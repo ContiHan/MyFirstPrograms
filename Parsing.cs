@@ -23,7 +23,7 @@ namespace MyFirstPrograms
 
         static public void PrintUserNumber(string OptionalTextForUser)
         {
-            Console.Write(OptionalTextForUser + GetUsetInput());
+            Console.WriteLine(OptionalTextForUser + GetUsetInput());
         }
 
         static public void TextForUserToGetNumber()
