@@ -7,7 +7,6 @@ namespace MyFirstPrograms
         static public void Greeting()
         {
             Console.WriteLine("Hello World!");
-            Console.ReadKey();
         }
     }
 }
