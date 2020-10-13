@@ -6,7 +6,7 @@ namespace MyFirstPrograms
 {
     class Parsing
     {
-        static public double GetUsetInput()
+        static double GetUserInput()
         {
             double UserNumber;
             do
@@ -18,15 +18,15 @@ namespace MyFirstPrograms
 
         static public void PrintUserNumber()
         {
-            Console.WriteLine(GetUsetInput());
+            Console.WriteLine(GetUserInput());
         }
 
         static public void PrintUserNumber(string OptionalTextForUser)
         {
-            Console.WriteLine(OptionalTextForUser + GetUsetInput());
+            Console.WriteLine(OptionalTextForUser + GetUserInput());
         }
 
-        static public void TextForUserToGetNumber()
+        static void TextForUserToGetNumber()
         {
             Console.Write("Give me some number: ");
         }
